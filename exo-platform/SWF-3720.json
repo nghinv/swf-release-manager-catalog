@@ -1,7 +1,7 @@
 [
       {
          "name":"answers",
-         "catalog":{tas
+         "catalog":{
             "id":"exo-answers"
          },
          "git_organization":"exoplatform",
