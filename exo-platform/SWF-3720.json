@@ -1,7 +1,7 @@
 [
       {
          "name":"answers",
-         "catalog":{
+         "catalog":{tas
             "id":"exo-answers"
          },
          "git_organization":"exoplatform",
@@ -194,7 +194,7 @@
       },
        "release":{
           "branch":"develop",
-          "version":"1.2.0-M04",
+          "version":"1.2.0-M05",
           "current_snapshot_version":"1.2.x-SNAPSHOT",
           "next_snapshot_version":"1.2.x-SNAPSHOT",
           "patches":"",
