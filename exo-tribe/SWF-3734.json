@@ -81,5 +81,25 @@
          "nexus_host":"exoplatform",
          "nexus_staging_profile":"public"
       }
-   }
+   },
+    {
+      "name":"platform",
+      "git_organization":"exoplatform",
+      "labels":"plf",
+      "maven_property_version":"org.exoplatform.platform.version",
+      "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 10
+      },
+      "release":{
+         "branch":"develop",
+         "version":"4.4.0-M10",
+         "current_snapshot_version":"4.4.x-SNAPSHOT",
+         "next_snapshot_version":"4.4.x-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"public"
+      }
+   },
 ]
