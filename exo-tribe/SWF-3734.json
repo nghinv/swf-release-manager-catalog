@@ -101,5 +101,5 @@
          "nexus_host":"exoplatform",
          "nexus_staging_profile":"public"
       }
-   },
+   }
 ]
