@@ -1,0 +1,105 @@
+[
+     {
+        "name":"community-website",
+        "git_organization":"exoplatform",
+        "labels":"cwi",
+        "maven_property_version":"org.exoplatform.tribe.version",
+        "container": {
+          "image": "exoplatform/release:jdk8-maven32",
+          "step": 1
+        },
+        "release":{
+           "branch":"master",
+           "version":"4.4.0-M10-W33-02",
+           "current_snapshot_version":"4.4.x-SNAPSHOT",
+           "next_snapshot_version":"4.4.x-SNAPSHOT",
+           "patches":"",
+           "patches_after_release":"",
+           "nexus_host":"exoplatform",
+           "nexus_staging_profile":"cwi"
+        }
+     },
+     {
+        "name":"answers",
+        "catalog":{
+           "id":"exo-answers"
+        },
+        "git_organization":"exoplatform",
+        "labels":"addons",
+        "maven_property_version":"org.exoplatform.addons.answers.version",
+        "container": {
+         "image": "exoplatform/release:jdk8-maven32",
+         "step": 1
+       },
+        "release":{
+           "branch":"develop",
+           "version":"1.2.0-M03",
+           "current_snapshot_version":"1.2.x-SNAPSHOT",
+           "next_snapshot_version":"1.2.x-SNAPSHOT",
+           "patches":"",
+           "patches_after_release":"",
+           "nexus_host":"exoplatform",
+           "nexus_staging_profile":"addons"
+        }
+     },
+    {
+      "name":"platform-private-distributions",
+      "git_organization":"exoplatform",
+      "labels":"plf",
+      "maven_property_version":"org.exoplatform.platform.distributions.private.version",
+      "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 12
+      },
+      "release":{
+         "branch":"develop",
+         "version":"4.4.0-M10",
+         "current_snapshot_version":"4.4.x-SNAPSHOT",
+         "next_snapshot_version":"4.4.x-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"private"
+      }
+   },
+    {
+      "name":"platform-public-distributions",
+      "git_organization":"exoplatform",
+      "labels":"plf",
+      "maven_property_version":"org.exoplatform.platform.distributions.version",
+      "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 11
+      },
+      "release":{
+         "branch":"develop",
+         "version":"4.4.0-M10",
+         "current_snapshot_version":"4.4.x-SNAPSHOT",
+         "next_snapshot_version":"4.4.x-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"public"
+      }
+   },
+    {
+      "name":"platform",
+      "git_organization":"exoplatform",
+      "labels":"plf",
+      "maven_property_version":"org.exoplatform.platform.version",
+      "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 10
+      },
+      "release":{
+         "branch":"develop",
+         "version":"4.4.0-M10",
+         "current_snapshot_version":"4.4.x-SNAPSHOT",
+         "next_snapshot_version":"4.4.x-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"public"
+      }
+   }
+]
