@@ -405,7 +405,7 @@
      },
      "release":{
         "branch":"stable/4.3.x-PLF",
-        "version":"4.3.1-CP01-PLF",
+        "version":"4.3.1-PLF",
         "current_snapshot_version":"4.3.x-PLF-SNAPSHOT",
         "next_snapshot_version":"4.3.x-PLF-SNAPSHOT",
         "patches":"",
