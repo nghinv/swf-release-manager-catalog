@@ -1,0 +1,25 @@
+[
+      {
+         "name":"wiki-rdbms",
+         "catalog":{
+            "id":"exo-wiki-rdbms"
+         },
+         "git_organization":"exo-addons",
+         "labels":"addons",
+         "maven_property_version":"addon.exo.wiki.rdbms.version",
+         "container": {
+          "image": "exoplatform/release:jdk8-maven32",
+          "step": 1
+        },
+         "release":{
+            "branch":"fix/build-release",
+            "version":"1.0.0-RC04",
+            "current_snapshot_version":"1.0.x-SNAPSHOT",
+            "next_snapshot_version":"1.0.x-SNAPSHOT",
+            "patches":"",
+            "patches_after_release":"",
+            "nexus_host":"exoplatform",
+            "nexus_staging_profile":"addons"
+         }
+      }
+]
