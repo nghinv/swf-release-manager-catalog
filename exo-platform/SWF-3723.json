@@ -1,6 +1,6 @@
 [
       {
-         "name":"social-java-client",
+         "name":"social-client-java",
          "git_organization":"exoplatform",
          "labels":"mobile",
          "maven_property_version":"exo.social.client.version",
