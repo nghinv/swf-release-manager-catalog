@@ -1,0 +1,22 @@
+[
+      {
+         "name":"social-java-client",
+         "git_organization":"exoplatform",
+         "labels":"mobile",
+         "maven_property_version":"exo.social.client.version",
+         "container": {
+          "image": "exoplatform/release:jdk7-maven32",
+          "step": 1
+        },
+         "release":{
+            "branch":"fix/MOB-2052",
+            "version":"1.0.3-MOB2052",
+            "current_snapshot_version":"1.0.4-SNAPSHOT",
+            "next_snapshot_version":"1.0.4-SNAPSHOT",
+            "patches":"",
+            "patches_after_release":"",
+            "nexus_host":"exoplatform",
+            "nexus_staging_profile":"public"
+         }
+      }
+]
