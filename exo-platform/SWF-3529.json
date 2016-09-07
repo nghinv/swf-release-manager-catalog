@@ -8,12 +8,12 @@
          "labels":"sample",
          "maven_property_version":"org.exoplatform.sandbox.version",
          "container": {
-          "image": "exoplatform/release:jdk8-maven32",
+          "image": "new-nexus:latest",
           "step": 1
         },
          "release":{
-            "branch":"develop",
-            "version":"3.0.0-M02",
+            "branch":"upgrade/nexus-docker",
+            "version":"3.0.0-new-nexus",
             "current_snapshot_version":"3.0.x-SNAPSHOT",
             "next_snapshot_version":"3.0.x-SNAPSHOT",
             "patches":"",
