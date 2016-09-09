@@ -1,0 +1,25 @@
+[
+      {
+         "name":"salesforce-integration",
+         "catalog":{
+            "id":"exo-salesforce-integration-tribe"
+         },
+         "git_organization":"exo-addons",
+         "labels":"addons",
+         "maven_property_version":"addon.exo.salesforce-integration.version",
+         "container": {
+          "image": "exoplatform/release:jdk8-maven32",
+          "step": 1
+        },
+         "release":{
+            "branch":"tribe-customization",
+            "version":"1.0.9-tribe",
+            "current_snapshot_version":"1.0.x-SNAPSHOT",
+            "next_snapshot_version":"1.0.x-SNAPSHOT",
+            "patches":"",
+            "patches_after_release":"",
+            "nexus_host":"exoplatform",
+            "nexus_staging_profile":"addons"
+         }
+      }
+]
