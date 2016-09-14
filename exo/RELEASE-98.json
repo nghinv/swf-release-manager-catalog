@@ -1,0 +1,20 @@
+[
+   {
+      "name":"sonar-exo-rules",
+      "git_organization":"exoplatform",
+      "labels":"exo",
+      "maven_property_version":"org.exoplatform.sonar-exo-rules.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 1
+      },
+      "release":{
+          "branch": "master",
+          "version": "1.0.0",
+          "current_snapshot_version":"1.0-SNAPSHOT",
+          "next_snapshot_version":"1.0.x-SNAPSHOT",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"public"
+      }
+   }
+]
