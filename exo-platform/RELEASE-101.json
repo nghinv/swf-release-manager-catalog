@@ -206,20 +206,20 @@
     {
        "name":"wcm-template-pack",
        "catalog":{
-          "id":"exo-site-templates"
+          "id":"exo-web-pack"
        },
        "git_organization":"exoplatform",
        "labels":"addons,trial",
-       "maven_property_version":"addon.exo.site.templates.version",
+       "maven_property_version":"addon.exo.web.pack.version",
        "container": {
         "image": "exoplatform/release:jdk8-maven32",
         "step": 1
       },
        "release":{
-          "branch":"release/1.0.x",
-          "version":"1.0.0",
-          "current_snapshot_version":"1.0.x-SNAPSHOT",
-          "next_snapshot_version":"1.0.x-SNAPSHOT",
+          "branch":"develop",
+          "version":"1.1.0-M01",
+          "current_snapshot_version":"1.1.x-SNAPSHOT",
+          "next_snapshot_version":"1.1.x-SNAPSHOT",
           "patches":"",
           "patches_after_release":"",
           "nexus_host":"exoplatform",
