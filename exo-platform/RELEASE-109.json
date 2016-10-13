@@ -15,8 +15,8 @@
        "next_snapshot_version":"15-SNAPSHOT",
        "patches":"",
        "patches_after_release":"",
-       "nexus_host":"jboss",
-       "nexus_staging_profile":"jboss"
+       "nexus_host":"exoplatform",
+       "nexus_staging_profile":"public"
     }
  }
 ]
