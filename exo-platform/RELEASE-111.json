@@ -36,7 +36,7 @@
         },
          "release":{
             "branch":"master",
-            "version":"1.0.0-RC04",
+            "version":"1.0.0-RC05",
             "current_snapshot_version":"1.0.x-SNAPSHOT",
             "next_snapshot_version":"1.0.x-SNAPSHOT",
             "patches":"",
