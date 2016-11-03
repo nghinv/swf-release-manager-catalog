@@ -763,7 +763,7 @@
     },
     "release":{
        "branch":"develop",
-       "version":"15-RC01",
+       "version":"15-RC02",
        "current_snapshot_version":"15-SNAPSHOT",
        "next_snapshot_version":"15-SNAPSHOT",
        "patches":"",
