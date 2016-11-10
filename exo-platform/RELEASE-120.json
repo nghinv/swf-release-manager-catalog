@@ -4,7 +4,7 @@
     "catalog":{
       "id":"exo-outlook"
     },
-    "git_organization":"exoplatform",
+    "git_organization":"exo-addons",
     "labels":"addons",
     "maven_property_version":"addon.exo.customer.space.version",
     "container": {
