@@ -19,7 +19,7 @@
           "patches":"",
           "patches_after_release":"",
           "nexus_host":"exoplatform",
-          "nexus_staging_profile":"cwi"
+          "nexus_staging_profile":"addons"
        }
     }
 ]
