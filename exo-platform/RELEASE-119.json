@@ -13,13 +13,13 @@
       },
        "release":{
           "branch":"develop",
-          "version":"1.0.0-M01",
+          "version":"1.0.0-M02",
           "current_snapshot_version":"1.0.x-SNAPSHOT",
           "next_snapshot_version":"1.0.x-SNAPSHOT",
           "patches":"",
           "patches_after_release":"",
           "nexus_host":"exoplatform",
-          "nexus_staging_profile":"private"
+          "nexus_staging_profile":"cwi"
        }
     }
 ]
