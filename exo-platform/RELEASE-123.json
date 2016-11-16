@@ -5,7 +5,7 @@
      "labels":"gatein",
      "maven_property_version":"org.gatein.pc.version",
      "container": {
-       "image": "exoplatform/release:jdk7-maven32",
+       "image": "exoplatform/release:jdk7-maven32-gateinpc",
        "step": 1
      },
      "release":{
