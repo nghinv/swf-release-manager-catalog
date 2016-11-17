@@ -1,0 +1,22 @@
+[
+   {
+      "name":"maven-parent-pom",
+      "git_organization":"exoplatform",
+      "labels":"pom",
+      "maven_property_version":"org.exoplatform.parent.version",
+      "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 1
+      },
+      "release":{
+         "branch":"develop",
+         "version":"16-RC01",
+         "current_snapshot_version":"16-SNAPSHOT",
+         "next_snapshot_version":"16-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"public"
+      }
+   }
+]
