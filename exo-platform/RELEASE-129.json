@@ -1,0 +1,22 @@
+[
+   {
+      "name":"addons-parent-pom",
+      "git_organization":"exo-addons",
+      "labels":"pom",
+      "maven_property_version":"org.exoplatform.addons.parent.version",
+      "container": {
+        "image": "exoplatform/release:jdk8-maven32-release",
+        "step": 1
+      },
+      "release":{
+         "branch":"develop",
+         "version":"7-RC01",
+         "current_snapshot_version":"7-SNAPSHOT",
+         "next_snapshot_version":"7-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"addons"
+      }
+   }
+]
