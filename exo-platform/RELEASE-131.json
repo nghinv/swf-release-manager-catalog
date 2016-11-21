@@ -5,6 +5,46 @@
       "labels":"plf",
       "maven_property_version":"org.exoplatform.platform.documentation.version",
       "container": {
+        "image": "exoplatform/release:jdk7-maven32",
+        "step": 1
+      },
+      "release":{
+         "branch":"stable/4.3.x",
+         "version":"4.3.0",
+         "current_snapshot_version":"4.3.x-SNAPSHOT",
+         "next_snapshot_version":"4.3.x-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"private"
+      }
+   },
+   {
+      "name":"platform-documentation",
+      "git_organization":"exoplatform",
+      "labels":"plf",
+      "maven_property_version":"org.exoplatform.platform.documentation.version",
+      "container": {
+        "image": "exoplatform/release:jdk7-maven32",
+        "step": 1
+      },
+      "release":{
+         "branch":"stable/4.2.x",
+         "version":"4.2.0",
+         "current_snapshot_version":"4.2.x-SNAPSHOT",
+         "next_snapshot_version":"4.2.x-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"private"
+      }
+   },
+   {
+      "name":"platform-documentation",
+      "git_organization":"exoplatform",
+      "labels":"plf",
+      "maven_property_version":"org.exoplatform.platform.documentation.version",
+      "container": {
         "image": "exoplatform/release:jdk7-maven30",
         "step": 1
       },
