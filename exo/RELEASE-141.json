@@ -1,0 +1,20 @@
+[
+   {
+      "name":"addons-manager",
+      "git_organization":"exoplatform",
+      "labels":"exo",
+      "maven_property_version":"org.exoplatform.addons.manager.version",
+       "container": {
+        "image": "exoplatform/release:jdk7-maven32",
+        "step": 1
+      },
+      "release":{
+          "branch": "develop",
+          "version": "1.1.0-RC01",
+          "current_snapshot_version":"1.1.0-SNAPSHOT",
+          "next_snapshot_version":"1.1.0-SNAPSHOT",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"public"
+      }
+   }
+]
