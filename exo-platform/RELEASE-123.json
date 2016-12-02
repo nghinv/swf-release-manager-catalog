@@ -5,12 +5,12 @@
      "labels":"gatein",
      "maven_property_version":"org.gatein.pc.version",
      "container": {
-       "image": "exoplatform/release:jdk7-maven32-gateinpc",
+       "image": "exoplatform/release:jdk7-maven32",
        "step": 1
      },
      "release":{
-        "branch":"develop",
-        "version":"2.6.0-M02-PLF",
+        "branch":"stable/2.6.x-PLF",
+        "version":"2.6.0-RC01-PLF",
         "current_snapshot_version":"2.6.x-PLF-SNAPSHOT",
         "next_snapshot_version":"2.6.x-PLF-SNAPSHOT",
         "patches":"",
