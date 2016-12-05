@@ -2,7 +2,7 @@
     {
        "name":"skinning",
        "catalog":{
-          "id":"customer-space"
+          "id":"exo-skinning"
        },
        "git_organization":"exoplatform",
        "labels":"addons",
@@ -12,7 +12,7 @@
         "step": 1
       },
        "release":{
-          "branch":"develop",
+          "branch":"master",
           "version":"1.0.0",
           "current_snapshot_version":"1.0.x-SNAPSHOT",
           "next_snapshot_version":"1.0.x-SNAPSHOT",
