@@ -4,7 +4,7 @@
        "catalog":{
           "id":"skinning"
        },
-       "git_organization":"exoplatform",
+       "git_organization":"exo-addons",
        "labels":"addons",
        "maven_property_version":"addon.exo.skinning.version",
        "container": {
