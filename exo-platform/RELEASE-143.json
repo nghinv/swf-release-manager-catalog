@@ -2,7 +2,7 @@
     {
        "name":"skinning",
        "catalog":{
-          "id":"exo-skinning"
+          "id":"skinning"
        },
        "git_organization":"exoplatform",
        "labels":"addons",
