@@ -10,7 +10,7 @@
         },
         "release":{
            "branch":"master",
-           "version":"4.4.0-RC03-W49",
+           "version":"4.4.0-RC03-W49-02",
            "current_snapshot_version":"4.4.x-SNAPSHOT",
            "next_snapshot_version":"4.4.x-SNAPSHOT",
            "patches":"",
