@@ -5,7 +5,7 @@
       "id":"exo-buy-page"
     },
     "git_organization":"exoplatform",
-    "labels":"addons",
+    "labels":"plf",
     "maven_property_version":"addon.exo.buy.page.version",
     "container": {
       "image": "exoplatform/release:jdk8-maven32",
