@@ -1,8 +1,8 @@
 [    
   {
-    "name":"exo-buy-page",
+    "name":"buy-exo-enterprise",
     "catalog":{
-      "id":"exo-buy-page"
+      "id":"buy-exo-enterprise"
     },
     "git_organization":"exoplatform",
     "labels":"plf",
