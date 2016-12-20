@@ -1,0 +1,25 @@
+[
+      {
+         "name":"maven-sandbox-project",
+         "catalog":{
+            "id":"maven-sandbox-project"
+         },
+         "git_organization":"exoplatform",
+         "labels":"sample",
+         "maven_property_version":"org.exoplatform.sandbox.version",
+         "container": {
+          "image": "exoplatform/release:RELMAN-1",
+          "step": 1
+        },
+         "release":{
+            "branch":"develop",
+            "version":"3.0.x-RELMAN-1",
+            "current_snapshot_version":"3.0.x-SNAPSHOT",
+            "next_snapshot_version":"3.0.x-SNAPSHOT",
+            "patches":"",
+            "patches_after_release":"",
+            "nexus_host":"exoplatform",
+            "nexus_staging_profile":"public"
+         }
+      }
+]
