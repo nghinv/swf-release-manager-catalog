@@ -10,7 +10,7 @@
         },
         "release":{
            "branch":"master",
-           "version":"4.4.0-RC05-W51",
+           "version":"4.4.0-RC05-W51-02",
            "current_snapshot_version":"4.4.x-SNAPSHOT",
            "next_snapshot_version":"4.4.x-SNAPSHOT",
            "patches":"",
