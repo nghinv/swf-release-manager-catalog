@@ -8,7 +8,7 @@
          "labels":"sample",
          "maven_property_version":"org.exoplatform.sandbox.version",
          "container": {
-          "image": "exoplatform/release:RELMAN-3",
+          "image": "exoplatform/release:jdk8-maven32",
           "step": 1
         },
          "release":{
