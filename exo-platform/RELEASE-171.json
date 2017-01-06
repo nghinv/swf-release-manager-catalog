@@ -1,0 +1,25 @@
+[
+    {
+       "name":"customer-space",
+       "catalog":{
+          "id":"customer-space"
+       },
+       "git_organization":"exoplatform",
+       "labels":"addons",
+       "maven_property_version":"addon.exo.customer.space.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 1
+      },
+       "release":{
+          "branch":"develop",
+          "version":"1.0.0-M03",
+          "current_snapshot_version":"1.0.x-SNAPSHOT",
+          "next_snapshot_version":"1.0.x-SNAPSHOT",
+          "patches":"",
+          "patches_after_release":"",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"addons"
+       }
+    }
+]
