@@ -10,7 +10,7 @@
       },
       "release":{
          "branch":"develop",
-         "version":"4.4.0-RC07",
+         "version":"4.4.0-RC08",
          "current_snapshot_version":"4.4.x-SNAPSHOT",
          "next_snapshot_version":"4.4.x-SNAPSHOT",
          "patches":"",
@@ -33,7 +33,7 @@
       },
         "release":{
           "branch":"develop",
-          "version":"1.2.0-RC07",
+          "version":"1.2.0-RC08",
           "current_snapshot_version":"1.2.x-SNAPSHOT",
           "next_snapshot_version":"1.2.x-SNAPSHOT",
           "patches":"",
@@ -53,7 +53,7 @@
       },
       "release":{
          "branch":"develop",
-         "version":"4.4.0-RC07",
+         "version":"4.4.0-RC08",
          "current_snapshot_version":"4.4.x-SNAPSHOT",
          "next_snapshot_version":"4.4.x-SNAPSHOT",
          "patches":"",
@@ -73,7 +73,7 @@
     },
     "release":{
        "branch":"develop",
-       "version":"1.17.0-RC07",
+       "version":"1.17.0-RC08",
        "current_snapshot_version":"1.17.x-SNAPSHOT",
        "next_snapshot_version":"1.17.x-SNAPSHOT",
        "patches":"",
@@ -93,7 +93,7 @@
     },
     "release":{
        "branch":"develop",
-       "version":"2.7.0-RC07",
+       "version":"2.7.0-RC08",
        "current_snapshot_version":"2.7.x-SNAPSHOT",
        "next_snapshot_version":"2.7.x-SNAPSHOT",
        "patches":"",
@@ -113,7 +113,7 @@
     },
     "release":{
        "branch":"develop",
-       "version":"2.6.0-RC07",
+       "version":"2.6.0-RC08",
        "current_snapshot_version":"2.6.x-SNAPSHOT",
        "next_snapshot_version":"2.6.x-SNAPSHOT",
        "patches":"",
