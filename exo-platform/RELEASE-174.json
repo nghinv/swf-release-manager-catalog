@@ -9,7 +9,7 @@
         "step": 1
       },
       "release":{
-         "branch":"develop",
+         "branch":"stable/16.x",
          "version":"16",
          "current_snapshot_version":"16-SNAPSHOT",
          "next_snapshot_version":"16-SNAPSHOT",
@@ -29,7 +29,7 @@
       "step": 1
     },
     "release":{
-       "branch":"develop",
+       "branch":"stable/15.x",
        "version":"15",
        "current_snapshot_version":"15-SNAPSHOT",
        "next_snapshot_version":"15-SNAPSHOT",
@@ -49,7 +49,7 @@
         "step": 1
       },
       "release":{
-         "branch":"develop",
+         "branch":"stable/7.x",
          "version":"7",
          "current_snapshot_version":"7-SNAPSHOT",
          "next_snapshot_version":"7-SNAPSHOT",
