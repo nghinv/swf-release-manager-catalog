@@ -1,8 +1,8 @@
 [    
   {
-    "name":"subscriptions-generator",
+    "name":"plf-tools-trial",
     "catalog":{
-      "id":"subscriptions-generator"
+      "id":"plf-tools-trial"
     },
     "git_organization":"exoplatform",
     "labels":"generator",
