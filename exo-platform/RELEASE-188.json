@@ -588,8 +588,8 @@
       "release":{
          "branch":"stable/12.x",
          "version":"12",
-         "current_snapshot_version":"12-SNAPSHOT",
-         "next_snapshot_version":"12-SNAPSHOT",
+         "current_snapshot_version":"12.x-SNAPSHOT",
+         "next_snapshot_version":"12.x-SNAPSHOT",
          "patches":"",
          "patches_after_release":"",
          "nexus_host":"exoplatform",
