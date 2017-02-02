@@ -13,7 +13,7 @@
         },
          "release":{
             "branch":"develop",
-            "version":"3.0.0-RELMAN-3",
+            "version":"3.0.1",
             "current_snapshot_version":"3.0.x-SNAPSHOT",
             "next_snapshot_version":"3.0.x-SNAPSHOT",
             "patches":"",
