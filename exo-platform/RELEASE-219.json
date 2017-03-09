@@ -187,7 +187,7 @@
           "step": 1
         },
          "release":{
-            "branch":"master",
+            "branch":"stable/1.0.x",
             "version":"1.0.1-RC08",
             "current_snapshot_version":"1.0.x-SNAPSHOT",
             "next_snapshot_version":"1.0.x-SNAPSHOT",
