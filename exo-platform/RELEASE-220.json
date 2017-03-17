@@ -33,7 +33,7 @@
       },
       "release":{
          "branch":"develop",
-         "version":"4.4.1-RC08-PLF",
+         "version":"4.4.1-RC09-PLF",
          "current_snapshot_version":"4.4.x-PLF-SNAPSHOT",
          "next_snapshot_version":"4.4.x-PLF-SNAPSHOT",
          "patches":"",
@@ -53,7 +53,7 @@
       },
       "release":{
          "branch":"develop",
-         "version":"4.4.1-RC08",
+         "version":"4.4.1-RC09",
          "current_snapshot_version":"4.4.x-SNAPSHOT",
          "next_snapshot_version":"4.4.x-SNAPSHOT",
          "patches":"",
@@ -73,7 +73,7 @@
       },
       "release":{
          "branch":"develop",
-         "version":"4.4.1-RC08",
+         "version":"4.4.1-RC09",
          "current_snapshot_version":"4.4.x-SNAPSHOT",
          "next_snapshot_version":"4.4.x-SNAPSHOT",
          "patches":"",
