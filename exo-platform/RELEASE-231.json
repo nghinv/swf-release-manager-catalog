@@ -587,7 +587,7 @@
       },
       "release":{
          "branch":"stable/12.x",
-         "version":"12.1-RC02",
+         "version":"12.1-RC03",
          "current_snapshot_version":"12.x-SNAPSHOT",
          "next_snapshot_version":"12.x-SNAPSHOT",
          "patches":"",
