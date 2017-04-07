@@ -1,0 +1,85 @@
+[
+    {
+       "name":"chat-application",
+       "catalog":{
+          "id":"exo-chat"
+       },
+       "git_organization":"exo-addons",
+       "labels":"addons",
+       "maven_property_version":"addon.exo.chat.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 1
+      },
+       "release":{
+          "branch":"feature/websockets",
+          "version":"1.5.0-M05",
+          "current_snapshot_version":"1.5.x-websockets-SNAPSHOT",
+          "next_snapshot_version":"1.5.x-websockets-SNAPSHOT",
+          "patches":"",
+          "patches_after_release":"",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"addons"
+       }
+    },
+    {
+      "name":"gatein",
+      "git_organization":"exoplatform",
+      "labels":"plf",
+      "maven_property_version":"org.gatein.portal.version",
+      "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 10
+      },
+      "release":{
+         "branch":"develop",
+         "version":"4.4.1-RC12-PLF",
+         "current_snapshot_version":"4.4.x-PLF-SNAPSHOT",
+         "next_snapshot_version":"4.4.x-PLF-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"public"
+      }
+   },
+   {
+      "name":"ecms",
+      "git_organization":"exoplatform",
+      "labels":"ecms",
+      "maven_property_version":"org.exoplatform.ecms.version",
+      "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 10
+      },
+      "release":{
+         "branch":"develop",
+         "version":"4.4.1-RC12",
+         "current_snapshot_version":"4.4.x-SNAPSHOT",
+         "next_snapshot_version":"4.4.x-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"public"
+      }
+   },
+    {
+      "name":"platform",
+      "git_organization":"exoplatform",
+      "labels":"plf",
+      "maven_property_version":"org.exoplatform.platform.version",
+      "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 10
+      },
+      "release":{
+         "branch":"develop",
+         "version":"4.4.1-RC12",
+         "current_snapshot_version":"4.4.x-SNAPSHOT",
+         "next_snapshot_version":"4.4.x-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"public"
+      }
+   }
+]
