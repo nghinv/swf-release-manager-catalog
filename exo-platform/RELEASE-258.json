@@ -587,9 +587,9 @@
       },
       "release":{
          "branch":"develop",
-         "version":"12.1",
-         "current_snapshot_version":"12.x-SNAPSHOT",
-         "next_snapshot_version":"12.x-SNAPSHOT",
+         "version":"13-M01",
+         "current_snapshot_version":"13-SNAPSHOT",
+         "next_snapshot_version":"13-SNAPSHOT",
          "patches":"",
          "patches_after_release":"",
          "nexus_host":"exoplatform",
