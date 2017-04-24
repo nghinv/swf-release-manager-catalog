@@ -369,9 +369,9 @@
       },
       "release":{
           "branch": "develop",
-          "version": "1.2.0-M01",
-          "current_snapshot_version":"1.2.x-SNAPSHOT",
-          "next_snapshot_version":"1.2.x-SNAPSHOT",
+          "version": "1.1.1",
+          "current_snapshot_version":"1.1.x-SNAPSHOT",
+          "next_snapshot_version":"1.1.x-SNAPSHOT",
           "nexus_host":"exoplatform",
           "nexus_staging_profile":"public"
       }
