@@ -14,8 +14,8 @@
        "release":{
           "branch":"feature/enterprise-skin",
           "version":"5.0.0-M01",
-          "current_snapshot_version":"1.0.x-SNAPSHOT",
-          "next_snapshot_version":"1.0.x-SNAPSHOT",
+          "current_snapshot_version":"1.0.x-enterprise-skin-SNAPSHOT",
+          "next_snapshot_version":"1.0.x-enterprise-skin-SNAPSHOT",
           "patches":"",
           "patches_after_release":"",
           "nexus_host":"exoplatform",
