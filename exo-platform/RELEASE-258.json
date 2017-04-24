@@ -119,7 +119,7 @@
       },
        "release":{
           "branch":"develop",
-          "version":"1.5.0-M06",
+          "version":"1.5.0-M05",
           "current_snapshot_version":"1.5.x-SNAPSHOT",
           "next_snapshot_version":"1.5.x-SNAPSHOT",
           "patches":"",
@@ -234,7 +234,7 @@
       },
        "release":{
           "branch":"develop",
-          "version":"1.3.0-M01",
+          "version":"1.2.1",
           "current_snapshot_version":"1.3.x-SNAPSHOT",
           "next_snapshot_version":"1.3.x-SNAPSHOT",
           "patches":"",
@@ -303,7 +303,7 @@
       },
        "release":{
           "branch":"develop",
-          "version":"1.3.0-M01",
+          "version":"1.2.2",
           "current_snapshot_version":"1.3.x-SNAPSHOT",
           "next_snapshot_version":"1.3.x-SNAPSHOT",
           "patches":"",
@@ -326,7 +326,7 @@
       },
        "release":{
           "branch":"develop",
-          "version":"1.2.0-M01",
+          "version":"1.1.1",
           "current_snapshot_version":"1.2.x-SNAPSHOT",
           "next_snapshot_version":"1.2.x-SNAPSHOT",
           "patches":"",
