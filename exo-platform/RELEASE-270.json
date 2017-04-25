@@ -13,9 +13,9 @@
       },
        "release":{
           "branch":"develop",
-          "version":"1.0.0-M05",
-          "current_snapshot_version":"1.0.x-SNAPSHOT",
-          "next_snapshot_version":"1.0.x-SNAPSHOT",
+          "version":"1.1.0-RC01",
+          "current_snapshot_version":"1.1.x-SNAPSHOT",
+          "next_snapshot_version":"1.1.x-SNAPSHOT",
           "patches":"",
           "patches_after_release":"",
           "nexus_host":"exoplatform",
