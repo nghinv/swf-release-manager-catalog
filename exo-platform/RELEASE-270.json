@@ -1,0 +1,68 @@
+[
+    {
+       "name":"customer-space",
+       "catalog":{
+          "id":"customer-space"
+       },
+       "git_organization":"exoplatform",
+       "labels":"addons",
+       "maven_property_version":"addon.exo.customer.space.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 1
+      },
+       "release":{
+          "branch":"develop",
+          "version":"1.0.0-M05",
+          "current_snapshot_version":"1.0.x-SNAPSHOT",
+          "next_snapshot_version":"1.0.x-SNAPSHOT",
+          "patches":"",
+          "patches_after_release":"",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"addons"
+       }
+    },   
+    {
+      "name":"platform",
+      "git_organization":"exoplatform",
+      "labels":"plf",
+      "maven_property_version":"org.exoplatform.platform.version",
+      "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 10
+      },
+      "release":{
+         "branch":"develop",
+         "version":"5.0.0-M01",
+         "current_snapshot_version":"5.0.x-SNAPSHOT",
+         "next_snapshot_version":"5.0.x-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"public"
+      }
+   },
+   {
+       "name":"task",
+       "catalog":{
+          "id":"exo-tasks"
+       },
+       "git_organization":"exoplatform",
+       "labels":"addons,trial",
+       "maven_property_version":"addon.exo.tasks.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven33",
+        "step": 1
+      },
+       "release":{
+          "branch":"develop",
+          "version":"1.2.2",
+          "current_snapshot_version":"1.3.x-SNAPSHOT",
+          "next_snapshot_version":"1.3.x-SNAPSHOT",
+          "patches":"",
+          "patches_after_release":"",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"addons"
+       }
+    }
+]
