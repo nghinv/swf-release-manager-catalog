@@ -627,9 +627,9 @@
       },
       "release":{
          "branch":"develop",
-         "version":"7",
-         "current_snapshot_version":"7-SNAPSHOT",
-         "next_snapshot_version":"7-SNAPSHOT",
+         "version":"8-M01",
+         "current_snapshot_version":"8-SNAPSHOT",
+         "next_snapshot_version":"8-SNAPSHOT",
          "patches":"",
          "patches_after_release":"",
          "nexus_host":"exoplatform",
