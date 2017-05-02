@@ -1,0 +1,160 @@
+[   
+    {
+       "name":"marketplace-extension",
+       "catalog":{
+          "id":"marketplace-extension"
+       },
+       "git_organization":"exo-addons",
+       "labels":"addons",
+       "maven_property_version":"addon.exo.marketplace-extension.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 1
+      },
+       "release":{
+          "branch":"master",
+          "version":"1.2.0-M02",
+          "current_snapshot_version":"1.2.x-SNAPSHOT",
+          "next_snapshot_version":"1.2.x-SNAPSHOT",
+          "patches":"",
+          "patches_after_release":"",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"addons"
+       }
+    },
+    {
+       "name":"salesforce-integration",
+       "catalog":{
+          "id":"salesforce-integration"
+       },
+       "git_organization":"exo-addons",
+       "labels":"addons",
+       "maven_property_version":"addon.exo.salesforce-integration.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 1
+      },
+       "release":{
+          "branch":"tribe-customization",
+          "version":"1.1.0-tribe-M02",
+          "current_snapshot_version":"1.1.x-SNAPSHOT",
+          "next_snapshot_version":"1.1.x-SNAPSHOT",
+          "patches":"",
+          "patches_after_release":"",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"addons"
+       }
+    },
+    {
+       "name":"remove-my-account",
+       "catalog":{
+          "id":"remove-my-account"
+       },
+       "git_organization":"exo-addons",
+       "labels":"addons",
+       "maven_property_version":"addon.exo.remove-my-account.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 1
+      },
+       "release":{
+          "branch":"master",
+          "version":"1.1.0-M02",
+          "current_snapshot_version":"1.1.x-SNAPSHOT",
+          "next_snapshot_version":"1.1.x-SNAPSHOT",
+          "patches":"",
+          "patches_after_release":"",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"addons"
+       }
+    },
+    {
+       "name":"maintenance-warning-addon",
+       "catalog":{
+          "id":"maintenance-warning-addon"
+       },
+       "git_organization":"exo-addons",
+       "labels":"addons",
+       "maven_property_version":"addon.exo.maintenance-warning-addon.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 1
+      },
+       "release":{
+          "branch":"master",
+          "version":"1.1.0-M02",
+          "current_snapshot_version":"1.1.x-SNAPSHOT",
+          "next_snapshot_version":"1.1.x-SNAPSHOT",
+          "patches":"",
+          "patches_after_release":"",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"addons"
+       }
+    }, 
+    {
+       "name":"import-users-csv",
+       "catalog":{
+          "id":"import-users-csv"
+       },
+       "git_organization":"exo-addons",
+       "labels":"addons",
+       "maven_property_version":"addon.exo.import-users-csv.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 1
+      },
+       "release":{
+          "branch":"master",
+          "version":"1.1.0-M02",
+          "current_snapshot_version":"1.1.x-SNAPSHOT",
+          "next_snapshot_version":"1.1.x-SNAPSHOT",
+          "patches":"",
+          "patches_after_release":"",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"addons"
+       }
+    },
+    {
+       "name":"brand-advocacy",
+       "catalog":{
+          "id":"brand-advocacy"
+       },
+       "git_organization":"exo-addons",
+       "labels":"addons",
+       "maven_property_version":"addon.exo.brand-advocacy.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 1
+      },
+       "release":{
+          "branch":"master",
+          "version":"1.1.0-M01",
+          "current_snapshot_version":"1.1.x-SNAPSHOT",
+          "next_snapshot_version":"1.1.x-SNAPSHOT",
+          "patches":"",
+          "patches_after_release":"",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"addons"
+       }
+    },   
+    {
+      "name":"platform",
+      "git_organization":"exoplatform",
+      "labels":"plf",
+      "maven_property_version":"org.exoplatform.platform.version",
+      "container": {
+        "image": "exoplatform/release:jdk8-maven32",
+        "step": 10
+      },
+      "release":{
+         "branch":"develop",
+         "version":"5.0.0-M02",
+         "current_snapshot_version":"5.0.x-SNAPSHOT",
+         "next_snapshot_version":"5.0.x-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"public"
+      }
+   }   
+]   
