@@ -119,7 +119,7 @@
       },
        "release":{
           "branch":"feature/websockets",
-          "version":"1.5.0-M07",
+          "version":"1.5.0-M06",
           "current_snapshot_version":"1.5.x-SNAPSHOT",
           "next_snapshot_version":"1.5.x-SNAPSHOT",
           "patches":"",
