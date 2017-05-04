@@ -1,0 +1,45 @@
+[
+    {
+       "name":"enterprise-skin",
+       "catalog":{
+          "id":"enterprise-skin"
+       },
+       "git_organization":"exoplatform",
+       "labels":"addons",
+       "maven_property_version":"addon.exo.enterprise-skin.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven33",
+        "step": 2
+      },
+       "release":{
+          "branch":"feature/enterprise-skin",
+          "version":"5.0.0-M03",
+          "current_snapshot_version":"1.0.x-enterprise-skin-SNAPSHOT",
+          "next_snapshot_version":"1.0.x-enterprise-skin-SNAPSHOT",
+          "patches":"",
+          "patches_after_release":"",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"addons"
+       }
+    },
+      {
+      "name":"platform-ui",
+      "git_organization":"exodev",
+      "labels":"plf",
+      "maven_property_version":"org.exoplatform.platform-ui.version",
+      "container": {
+        "image": "exoplatform/release:jdk8-maven33",
+        "step": 1
+      },
+      "release":{
+         "branch":"feature/enterprise-skin",
+         "version":"5.0.0-enterprise-skin-M03",
+         "current_snapshot_version":"5.0.x-enterprise-skin-SNAPSHOT",
+         "next_snapshot_version":"5.0.x-enterprise-skin-SNAPSHOT",
+         "patches":"",
+         "patches_after_release":"",
+         "nexus_host":"exoplatform",
+         "nexus_staging_profile":"public"
+      }
+   }
+]
