@@ -341,7 +341,7 @@
       "labels":"exo",
       "maven_property_version":"org.exoplatform.platform.addons-manager.version",
        "container": {
-        "image": "exoplatform/release:jdk8-maven33",
+        "image": "exoplatform/release:jdk7-maven32",
         "step": 1
       },
       "release":{
