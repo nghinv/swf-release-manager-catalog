@@ -10,7 +10,7 @@
         },
         "release":{
            "branch":"master",
-           "version":"5.0.0-M02-W18",
+           "version":"5.0.0-M04-W20",
            "current_snapshot_version":"5.0.x-SNAPSHOT",
            "next_snapshot_version":"5.0.x-SNAPSHOT",
            "patches":"",
