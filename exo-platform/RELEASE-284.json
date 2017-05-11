@@ -564,7 +564,7 @@
       },
       "release":{
          "branch":"develop",
-         "version":"13-M03",
+         "version":"13-M04",
          "current_snapshot_version":"13-SNAPSHOT",
          "next_snapshot_version":"13-SNAPSHOT",
          "patches":"",
