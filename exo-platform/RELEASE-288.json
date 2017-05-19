@@ -118,8 +118,8 @@
         "step": 1
       },
        "release":{
-          "branch":"feature/websockets",
-          "version":"1.5.0-M06",
+          "branch":"develop",
+          "version":"1.5.0-M09",
           "current_snapshot_version":"1.5.x-SNAPSHOT",
           "next_snapshot_version":"1.5.x-SNAPSHOT",
           "patches":"",
