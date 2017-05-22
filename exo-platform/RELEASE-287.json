@@ -6,9 +6,9 @@
     },
     "git_organization":"exo-addons",
     "labels":"addons",
-    "maven_property_version":"addon.exo.customer.space.version",
+    "maven_property_version":"addon.exo.skype.version",
     "container": {
-      "image": "exoplatform/release:jdk8-maven32",
+      "image": "exoplatform/release:jdk8-maven33",
       "step": 1
     },
     "release": {
