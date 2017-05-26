@@ -303,7 +303,7 @@
       },
        "release":{
           "branch":"stable/1.2.x",
-          "version":"1.2.2-RC01",
+          "version":"1.2.3-RC01",
           "current_snapshot_version":"1.2.x-SNAPSHOT",
           "next_snapshot_version":"1.2.x-SNAPSHOT",
           "patches":"",
