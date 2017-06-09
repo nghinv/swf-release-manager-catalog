@@ -179,7 +179,7 @@
          "catalog":{
             "id":"exo-es-embedded"
          },
-         "git_organization":"exo-addons",
+         "git_organization":"exoplatform",
          "labels":"addons",
          "maven_property_version":"addon.exo.es.embedded.version",
          "container": {
