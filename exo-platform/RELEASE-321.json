@@ -1,0 +1,22 @@
+[
+   {
+     "name":"juzu",
+     "git_organization":"juzu",
+     "labels":"juzu",
+     "maven_property_version":"org.juzu.version",
+     "container": {
+       "image": "exoplatform/release:jdk7-maven32",
+       "step": 1
+     },
+     "release":{
+        "branch":"master",
+        "version":"1.2.0-M02",
+        "current_snapshot_version":"1.2.x-SNAPSHOT",
+        "next_snapshot_version":"1.2.x-SNAPSHOT",
+        "patches":"",
+        "patches_after_release":"",
+        "nexus_host":"exoplatform",
+        "nexus_staging_profile":"juzu"
+     }
+   }
+]
