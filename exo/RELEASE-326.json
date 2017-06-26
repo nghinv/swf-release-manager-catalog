@@ -1,0 +1,20 @@
+[
+   {
+      "name":"crowdin-maven-plugin",
+      "git_organization":"exoplatform",
+      "labels":"exo",
+      "maven_property_version":"org.exoplatform.translation.plugin.version",
+       "container": {
+        "image": "exoplatform/release:jdk8-maven33",
+        "step": 1
+      },
+      "release":{
+          "branch": "master",
+          "version": "1.2.0",
+          "current_snapshot_version":"1.2.x-SNAPSHOT",
+          "next_snapshot_version":"1.2.x-SNAPSHOT",
+          "nexus_host":"exoplatform",
+          "nexus_staging_profile":"public"
+      }
+   }
+]
