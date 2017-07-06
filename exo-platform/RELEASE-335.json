@@ -110,7 +110,7 @@
        "catalog":{
           "id":"exo-chat"
        },
-       "git_organization":"exo-addons",
+       "git_organization":"exoplatform",
        "labels":"addons,trial",
        "maven_property_version":"addon.exo.chat.version",
        "container": {
@@ -119,7 +119,7 @@
       },
        "release":{
           "branch":"develop",
-          "version":"1.6.0-M12",
+          "version":"1.6.0-M12-2",
           "current_snapshot_version":"1.6.x-SNAPSHOT",
           "next_snapshot_version":"1.6.x-SNAPSHOT",
           "patches":"",
